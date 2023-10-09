@@ -1,0 +1,270 @@
+body{
+    margin: 0;
+    border: 0;
+}
+
+
+.header_logo
+{
+    font-size: 24px;
+    color: #f9faf8;
+    font-family: 'Roboto', sans-serif;
+}
+
+.section1
+{
+    padding :0;
+    background-color: #1f2937;
+    margin: 0;
+    
+}
+
+.header2
+{
+    font-size: 48px;
+    font-weight: 500;
+    color: #f9faf8;
+    font-family: 'Caprasimo', cursive;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+
+.info
+{
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    padding: 20px;
+}
+
+
+.header
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    margin-left: 140px;
+    margin-right: 140px;
+    
+}
+
+.mid_portion
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+    flex-shrink: 0;
+}
+
+.left
+{
+    width: 40%;
+    padding: 40px;
+    align-self: flex-end;
+}
+
+.right
+{
+    width: 50%;
+    
+}
+
+a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    gap: 16px;
+}
+
+button{
+    background-color: #3882F6;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    border-radius: 16%;
+    padding: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.header3{
+    font-size: 36px;
+    font-weight: 300;
+    color: #1f2937;
+    font-family: 'Caprasimo', cursive;
+    align-self: center;
+    padding: 5%;
+}
+
+.section2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 3%;
+    
+}
+.images{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    
+}
+
+.top
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.img1,.img2,.img3,.img4
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 5px;
+    min-width: 200px;
+    
+}
+
+.border
+{
+    border-radius: 16px;
+    
+    padding: 0;
+}
+
+.random_info
+{
+    font-family: 'Caprasimo', cursive;
+    font-size: 18px;
+    color: #1f2937;
+    padding: 20px;
+    align-self: center;
+}
+
+.section3
+{
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    padding: 15%;
+    background-image: url(./images/quotesection.avif);
+    background-size: cover;
+}
+
+.quote
+{
+    font-size: 36px;
+    color: #f1f6e0;
+    font-style: italic;
+
+}
+
+.quoted
+{
+    color: #fafedb;
+    align-self: flex-end;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Caprasimo', cursive;
+}
+
+
+.section4
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 7%;
+    flex-shrink: 0;
+}
+
+.inner
+{
+    background-color: #3882F6;
+    color: #f9faf8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 2%;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 10px;
+    width: 80%;
+    
+}
+
+.header_sign
+{
+    font-size: 24px;
+    font-weight: bold;
+    padding: 2%;
+}
+
+.right_half
+{
+    align-self: center;
+}
+
+.information
+{
+    padding: 2%;
+}
+
+.anothersign
+{
+    border-color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    justify-content: center;
+    color: #e5e7eb;
+    border-radius: 16%;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: center;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    font-family: 'Roboto', sans-serif;
+    padding: 1%;
+    
+}
+
